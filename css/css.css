@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/14468693_10108227897209883_4876007150152537709_o.jpg?oh=f96024a74e4097eb35c38f9dae1188b0&oe=595F6DD7") !important; 
+  background-size: cover;
+}
+
+.bgbody {
+	
+		
+}
+
+.transparentbox {
+	margin-top: 200px;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 50%;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+}
+
+.margin-top-3 {
+	padding-top: 30px;
+}
