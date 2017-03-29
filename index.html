@@ -17,7 +17,69 @@
 		<h1 class="text-center margin-top-3">The nicest day is:</h1>
 		<h2 class="text-center">Saturday, April 1st</h2>
 		<h4 class="text-center"><img width="50px" src="imgs/thermometer-1.svg"> 64° F  <img width="50px" src="imgs/cloudy-2.svg"> 17% Precipitation  <img width="50px" src="imgs/humidity.svg"> 60% Humidity</h4>
+		
+		<div class="slider">
+			<nav class="slidemenu">
+				<!--http://codepen.io/abenjamin/pen/XbbdZJ-->
+
+				<!-- Item 1 -->
+				<input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+				<label for="slide-item-1"><img width="70px" src="imgs/cloudy-5.svg"><span>1</span></label>
+
+				<!-- Item 2 -->
+				<input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+				<label for="slide-item-2"><img width="70px" src="imgs/foggy.svg"><span>2</span></label>
+
+				<!-- Item 3 -->
+				<input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+				<label for="slide-item-3"><img width="70px" src="imgs/snow-2.svg"><span>3</span></label>
+
+				<!-- Item 4 -->
+				<input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+				<label for="slide-item-4"><img width="70px" src="imgs/sun.svg"><span>4</span></label>
+				
+				<!-- Item 5 -->
+				<input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
+				<label for="slide-item-5"><img width="70px" src="imgs/sunrise.svg"><span>5</span></label>
+
+				<!-- Item 6 -->
+				<input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle"/>
+				<label for="slide-item-6"><img width="70px" src="imgs/night-1.svg"><span>6</span></label>
+				
+				<!-- Item 7 -->
+				<input type="radio" name="slideItem" id="slide-item-7" class="slide-toggle"/>
+				<label for="slide-item-7"><img width="70px" src="imgs/frost.svg"><span>7</span></label>
+				
+				
+				<div class="clear"></div>
+
+				<!-- Bar -->
+				<div class="slider">
+					<div class="bar"></div>
+				</div>
+
+			</nav>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="radio-buttons">
+			<form class="form-inline">
+			<label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Use my location
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Zip code
+			</label>
+			<input type="text" class="form-control" id="zipcode">
+			</form>
+			
+		</div>
+		
 	</section>
+		
+	
+		
 	<footer>
 	
 	</footer>
