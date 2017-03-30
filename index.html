@@ -14,7 +14,88 @@
 <body>
 	
 	<div class="row">
-		<div class="col-xs-10 col-sm-8 col-md-6 col-lg-6"></div>
+		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+		<div class="transparentbox col-xs-10 col-sm-8 col-md-6 col-lg-6">
+			
+			<h1 class="text-center margin-top-3">The nicest day is:</h1>
+			<h2 class="text-center">Saturday, April 1st</h2>
+			<h4 class="text-center"><img width="50px" src="imgs/thermometer-1.svg"> 64° F  <img width="50px" src="imgs/cloudy-2.svg"> 17% Precipitation  <img width="50px" src="imgs/humidity.svg"> 60% Humidity</h4>
+
+			<p class="pull-left">Next</p>
+			<p class="pull-right">Days</p>
+			
+			<div class="slider">
+				<nav class="slidemenu">
+					<!--http://codepen.io/abenjamin/pen/XbbdZJ-->
+
+					<!-- Item 1 -->
+					<input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+					<label for="slide-item-1"><span>1</span></label>
+
+					<!-- Item 2 -->
+					<input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+					<label for="slide-item-2"><span>2</span></label>
+
+					<!-- Item 3 -->
+					<input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+					<label for="slide-item-3"><span>3</span></label>
+
+					<!-- Item 4 -->
+					<input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+					<label for="slide-item-4"><span>4</span></label>
+
+					<!-- Item 5 -->
+					<input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
+					<label for="slide-item-5"><span>5</span></label>
+
+					<!-- Item 6 -->
+					<input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle"/>
+					<label for="slide-item-6"><span>6</span></label>
+
+					<!-- Item 7 -->
+					<input type="radio" name="slideItem" id="slide-item-7" class="slide-toggle"/>
+					<label for="slide-item-7"><span>7</span></label>
+
+					<!-- Item 8 -->
+					<input type="radio" name="slideItem" id="slide-item-8" class="slide-toggle"/>
+					<label for="slide-item-8"><span>8</span></label>
+
+					<!-- Item 9 -->
+					<input type="radio" name="slideItem" id="slide-item-9" class="slide-toggle"/>
+					<label for="slide-item-9"><span>9</span></label>
+
+					<!-- Item 10 -->
+					<input type="radio" name="slideItem" id="slide-item-10" class="slide-toggle"/>
+					<label for="slide-item-10"><span>10</span></label>
+
+
+					<div class="clear"></div>
+
+					<!-- Bar -->
+					<div class="slider">
+						<div class="bar"></div>
+					</div>
+
+				</nav>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="radio-buttons">
+				<form class="form-inline">
+				<label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Use my location
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Zip code
+				</label>
+				<input type="text" class="form-control" id="zipcode">
+				</form>
+
+			</div>
+			
+		</div>
+		<div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
 	</div>
 	
 	
@@ -24,105 +105,15 @@
 	
 	
 	
-	
-	<wrapper class="bgbody">
-	<section class="transparentbox">
-		<h1 class="text-center margin-top-3">The nicest day is:</h1>
-		<h2 class="text-center">Saturday, April 1st</h2>
-		<h4 class="text-center"><img width="50px" src="imgs/thermometer-1.svg"> 64° F  <img width="50px" src="imgs/cloudy-2.svg"> 17% Precipitation  <img width="50px" src="imgs/humidity.svg"> 60% Humidity</h4>
+
+
 		
-		<div class="slider">
-			<nav class="slidemenu">
-				<!--http://codepen.io/abenjamin/pen/XbbdZJ-->
-
-				<!-- Item 1 -->
-				<input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-				<label for="slide-item-1"><span>1</span></label>
-
-				<!-- Item 2 -->
-				<input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-				<label for="slide-item-2"><span>2</span></label>
-
-				<!-- Item 3 -->
-				<input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-				<label for="slide-item-3"><span>3</span></label>
-
-				<!-- Item 4 -->
-				<input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-				<label for="slide-item-4"><span>4</span></label>
-				
-				<!-- Item 5 -->
-				<input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
-				<label for="slide-item-5"><span>5</span></label>
-
-				<!-- Item 6 -->
-				<input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle"/>
-				<label for="slide-item-6"><span>6</span></label>
-				
-				<!-- Item 7 -->
-				<input type="radio" name="slideItem" id="slide-item-7" class="slide-toggle"/>
-				<label for="slide-item-7"><span>7</span></label>
-				
-				<!-- Item 8 -->
-				<input type="radio" name="slideItem" id="slide-item-8" class="slide-toggle"/>
-				<label for="slide-item-8"><span>8</span></label>
-				
-				<!-- Item 9 -->
-				<input type="radio" name="slideItem" id="slide-item-9" class="slide-toggle"/>
-				<label for="slide-item-9"><span>9</span></label>
-				
-				<!-- Item 10 -->
-				<input type="radio" name="slideItem" id="slide-item-10" class="slide-toggle"/>
-				<label for="slide-item-10"><span>10</span></label>
-				
-				
-				<div class="clear"></div>
-
-				<!-- Bar -->
-				<div class="slider">
-					<div class="bar"></div>
-				</div>
-
-			</nav>
-		</div>
 		
-		<div class="clear"></div>
-		
-		<div class="radio-buttons">
-			<form class="form-inline">
-			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Use my location
-			</label>
-			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Zip code
-			</label>
-			<input type="text" class="form-control" id="zipcode">
-			</form>
-			
-		</div>
-		
-	</section>
-		
-	<section>
-		<p>
-		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget purus vitae augue suscipit pellentesque sit amet in purus. Nam mollis nibh vel nisl dictum sollicitudin. Cras consectetur lacus suscipit metus facilisis, ac viverra libero vestibulum. Fusce a tortor non sem rutrum iaculis. Etiam eu dolor non tellus blandit lacinia at nec lectus. Pellentesque fermentum sodales lorem ac rhoncus. Aenean faucibus pharetra sem, at vehicula ex pellentesque sed. Quisque lectus est, laoreet quis semper aliquet, dapibus id dolor. Donec in fermentum dolor. Maecenas feugiat turpis et mi sagittis venenatis. Duis eleifend lectus mattis elit malesuada dictum.</p>
-
-<p>Aenean sapien quam, facilisis in justo at, viverra convallis sapien. Nullam lobortis eu neque non porta. Aenean ultrices gravida nunc ac hendrerit. Praesent malesuada, felis vitae lacinia consequat, diam lorem laoreet magna, sit amet tincidunt justo diam a odio. In imperdiet diam sed neque consectetur tincidunt sed vitae eros. Nam lacus mauris, scelerisque sit amet cursus vitae, dignissim ut nisl. In pellentesque nunc eget velit pulvinar, vitae sollicitudin orci dapibus. Fusce dignissim luctus diam ut maximus.</p>
-
-<p>Phasellus sem tellus, euismod id orci quis, pellentesque efficitur leo. Phasellus dapibus ultrices neque, ac convallis lorem mattis iaculis. Vivamus egestas diam ipsum, molestie dapibus odio ullamcorper ac. Etiam suscipit consectetur ornare. Phasellus rhoncus sodales libero ac ultricies. Nam lobortis lorem et lacus euismod, vel laoreet augue eleifend. Maecenas sit amet volutpat lacus, sed rutrum nunc. Aliquam ac laoreet enim, sit amet dignissim dolor. Quisque consequat ante nulla, ut luctus massa ultrices a. Quisque rhoncus libero at nibh cursus, ac gravida erat vehicula. Donec faucibus ex id nulla viverra, sit amet maximus tortor sodales. Proin aliquam purus laoreet, pellentesque diam ut, dignissim est.
-
-
-		</p>	
-		
-	</section>
-		
-	
 		
 	<footer>
 	
 	</footer>
-	</wrapper>
+
 	<script src="js/js.js"></script>
 </body>
 </html>
