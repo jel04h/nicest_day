@@ -13,6 +13,6 @@ DailyForecast.prototype.niceScore = function() {
 
 $(document).ready(function() {
     var forecast = new DailyForecast();
-    alert(forecast.niceScore());
+    // alert(forecast.niceScore());
 
 });
