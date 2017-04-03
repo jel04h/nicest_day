@@ -18,7 +18,7 @@
 		<div class="transparentbox col-xs-10 col-sm-8 col-md-6 col-lg-6">
 			
 			<h1 class="text-center margin-top-3">The nicest day is:</h1>
-			<h2 class="text-center">Saturday, April 1st</h2>
+			<h2 id="nicestDay" class="text-center">Saturday, April 1st</h2>
 			<h4 class="text-center"><img width="50px" src="imgs/thermometer-1.svg"> 64° F  <img width="50px" src="imgs/cloudy-2.svg"> 17% Precipitation  <img width="50px" src="imgs/humidity.svg"> 60% Humidity</h4>
 
 			<p class="pull-left">Next</p>
@@ -29,43 +29,43 @@
 					<!--http://codepen.io/abenjamin/pen/XbbdZJ-->
 
 					<!-- Item 1 -->
-					<input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+					<input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" value="1" checked/>
 					<label for="slide-item-1"><span>1</span></label>
 
 					<!-- Item 2 -->
-					<input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-2" value="2" class="slide-toggle"/>
 					<label for="slide-item-2"><span>2</span></label>
 
 					<!-- Item 3 -->
-					<input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-3" value="3" class="slide-toggle"/>
 					<label for="slide-item-3"><span>3</span></label>
 
 					<!-- Item 4 -->
-					<input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-4" value="4" class="slide-toggle"/>
 					<label for="slide-item-4"><span>4</span></label>
 
 					<!-- Item 5 -->
-					<input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-5" value="5" class="slide-toggle"/>
 					<label for="slide-item-5"><span>5</span></label>
 
 					<!-- Item 6 -->
-					<input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-6" value="6" class="slide-toggle"/>
 					<label for="slide-item-6"><span>6</span></label>
 
 					<!-- Item 7 -->
-					<input type="radio" name="slideItem" id="slide-item-7" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-7" value="7" class="slide-toggle"/>
 					<label for="slide-item-7"><span>7</span></label>
 
 					<!-- Item 8 -->
-					<input type="radio" name="slideItem" id="slide-item-8" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-8" value="8" class="slide-toggle"/>
 					<label for="slide-item-8"><span>8</span></label>
 
 					<!-- Item 9 -->
-					<input type="radio" name="slideItem" id="slide-item-9" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-9" value="9" class="slide-toggle"/>
 					<label for="slide-item-9"><span>9</span></label>
 
 					<!-- Item 10 -->
-					<input type="radio" name="slideItem" id="slide-item-10" class="slide-toggle"/>
+					<input type="radio" name="slideItem" id="slide-item-10" value="10" class="slide-toggle"/>
 					<label for="slide-item-10"><span>10</span></label>
 
 
@@ -84,10 +84,10 @@
 			<div class="radio-buttons">
 				<form class="form-inline">
 				<label class="radio-inline">
-					<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Use my location
+					<input type="radio" name="inlineRadioOptions" id="useLocation" value="option1"> Use my location
 				</label>
 				<label class="radio-inline">
-					<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Zip code
+					<input type="radio" name="inlineRadioOptions" id="useZipCode" value="option2"> Zip code
 				</label>
 				<input type="text" class="form-control" id="zipcode">
 				</form>
@@ -114,6 +114,7 @@
 	
 	</footer>
 
+	<script src="js/key.js"></script>
 	<script src="js/js.js"></script>
 </body>
 </html>
